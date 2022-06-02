@@ -22,17 +22,19 @@ namespace ensyuu2
             int i = 1;
             while (i <= 10)//変数iが10まで繰り返す
             {
-                if(i == 5)//変数iが5だった場合の処理
+                MessageBox.Show(i.ToString());
+                if (i == 5)//変数iが5だった場合の処理
                 {
-                    MessageBox.Show(i.ToString());
+                    //MessageBox.Show(i.ToString());
                     MessageBox.Show("ここで半分です");
-                    i++;
+                    //i++;
                 }
-                else//変数iが5以外の処理
-                {
-                    MessageBox.Show(i.ToString());
-                    i++;
-                }
+                i++;
+                //else//変数iが5以外の処理
+                //{
+                //    MessageBox.Show(i.ToString());
+                //    i++;
+                //}
             }
         }
     }
